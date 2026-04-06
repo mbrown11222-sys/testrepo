@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ideal relocation Areas V2</name>
+    <description><![CDATA[Second expanded version of map for 2026 Housing search. Includes new section - "Area C". ]]></description>
+    <Style id="icon-1899-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="poly-1A237E-1200-77-normal">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d7e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-1A237E-1200-77-highlight">
+      <LineStyle>
+        <color>ff7e231a</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d7e231a</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-1A237E-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-1A237E-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-1A237E-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-7CB342-1200-77-normal">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d42b37c</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-7CB342-1200-77-highlight">
+      <LineStyle>
+        <color>ff42b37c</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d42b37c</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-7CB342-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-7CB342-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-7CB342-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-A1C2FA-1200-77-normal">
+      <LineStyle>
+        <color>fffac2a1</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dfac2a1</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-A1C2FA-1200-77-highlight">
+      <LineStyle>
+        <color>fffac2a1</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4dfac2a1</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-A1C2FA-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-A1C2FA-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-A1C2FA-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-EDA29B-1200-77-normal">
+      <LineStyle>
+        <color>ff9ba2ed</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d9ba2ed</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-EDA29B-1200-77-highlight">
+      <LineStyle>
+        <color>ff9ba2ed</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d9ba2ed</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-EDA29B-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-EDA29B-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-EDA29B-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Target Areas for Relocation</name>
+      <Placemark>
+        <name>School Anchor - PS/MS 122Q The Mamie Fay School</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -73.9162258,40.7802711,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Area A1 - Highest Priority / Near School</name>
+        <description>Mamie Fay Walk Zone</description>
+        <styleUrl>#poly-7CB342-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -73.9108348,40.779679,0
+                -73.9171825,40.7839593,0
+                -73.9185128,40.7835694,0
+                -73.9196324,40.7825873,0
+                -73.9224863,40.7802639,0
+                -73.9204907,40.778704,0
+                -73.919611,40.7781028,0
+                -73.9186668,40.7774854,0
+                -73.9179802,40.7779891,0
+                -73.9151907,40.776023,0
+                -73.9108348,40.779679,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Area B - Secondary Priority / Astoria Heights-Hazen</name>
+        <description>Astoria Heights-Hazen</description>
+        <styleUrl>#poly-1A237E-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -73.9037832,40.7714415,0
+                -73.9060752,40.7695946,0
+                -73.9041654,40.7683433,0
+                -73.9038436,40.7682458,0
+                -73.9003245,40.7676445,0
+                -73.8951961,40.7668807,0
+                -73.8927285,40.7668807,0
+                -73.8913981,40.7667181,0
+                -73.8884584,40.7671894,0
+                -73.8886985,40.7689714,0
+                -73.889471,40.7730503,0
+                -73.8928613,40.7737653,0
+                -73.8966164,40.7762352,0
+                -73.8941917,40.7781688,0
+                -73.8949641,40.7786725,0
+                -73.9037832,40.7714415,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Area A2 - Secondary Priority / Broader Ditmars-Astoria Park</name>
+        <description>Broader Ditmars-Astoria Park</description>
+        <styleUrl>#poly-A1C2FA-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -73.9065394,40.7797349,0
+                -73.9152942,40.7860065,0
+                -73.9171825,40.7839593,0
+                -73.9185128,40.7835694,0
+                -73.9241347,40.778825,0
+                -73.926023,40.77824,0
+                -73.9282546,40.7767452,0
+                -73.9274392,40.7763227,0
+                -73.9283834,40.7746652,0
+                -73.9249072,40.7735603,0
+                -73.9230619,40.7753477,0
+                -73.9222894,40.7745352,0
+                -73.9170537,40.7709277,0
+                -73.9065394,40.7797349,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Area C - Third Priority / Astoria Heights / Near Church</name>
+        <description><![CDATA[Walking distance to Saint Joseph's Roman Catholic Church]]></description>
+        <styleUrl>#poly-EDA29B-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -73.9090432,40.7684817,0
+                -73.9155019,40.760567,0
+                -73.9099015,40.7579014,0
+                -73.9037002,40.7655239,0
+                -73.9041294,40.766369,0
+                -73.9052022,40.7677504,0
+                -73.9058674,40.7679617,0
+                -73.9090432,40.7684817,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
